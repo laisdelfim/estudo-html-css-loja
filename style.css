@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #E3E3E3;
+}
+
+.center{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.topo{
+ width: 100%;
+ align-items: center;
+ background-color: #ffffff;
+}
+
+.topo .flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topo .logo {
+  width: 131px;
+  padding: 15px 0;
+}
+
+.topo .botao{
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topo .botao a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #3C3C3C;
+  text-decoration: none;
+}
+
+.imagen{
+  width: 100%;
+  height: 430px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image:url(imagen/imagen-1.png);
+}
+
+
+.produtos .flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -130px;
+}
+
+
+.produtos .flex  p{
+display: flex;
+justify-content: center;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+.produtos .flex .itens{
+  width: 213px;
+  height: 229px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+
+.produtos .flex .itens .img{
+  display: flex;
+  justify-content: center;
+}
+
+.produtos .flex .itens .img img{
+border-radius: 10px;
+}
+
+.itens .texto{
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+
+.conteudo{
+  margin-top: 100px;
+}
+
+
+.conteudo .título h1{
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.conteudo p{
+  height: 188px;
+  width: 730px;
+  font-size: 16px;
+  font-weight: regular;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.contato .margin p{
+  margin-top: 10px;
+}
+
+
+.area{
+  background-color: #292929;
+  padding-top: 88px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.area  .flex{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.area .contato h1{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 34px;
+  color: #ffffff;
+}
+
+.area .contato p{
+  font-size: 14px;
+  font-weight: regular;
+  color: #FFFFFF;
+}
+
+.area .acesso .dados p{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: regular;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.area .acesso .dados input{
+  background-color: #1E1E1E;
+  height: 60px;
+  width: 461px;
+  border-radius: 10px;
+  border: none;
+}
+
+.area .acesso .dados textarea{
+  background-color: #1E1E1E;
+  height: 156px;
+  width: 461px;
+  border-radius: 10px;
+  border: none;
+}
+
+.area .acesso  .boton  button{
+  background-color: #D9D9D9;
+  color:#292929 ;
+  font-size: 16px;
+  font-weight: bold;
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+
+.area .acesso .boton{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
